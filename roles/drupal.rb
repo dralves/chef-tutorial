@@ -10,7 +10,7 @@ override_attributes(
   :db => {
     :user => "pictonio",
     :password => "pictonio",
-    :database=> "pictonio"
+    :database => "pictonio"
   }
 )
 
