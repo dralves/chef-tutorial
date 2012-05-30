@@ -21,6 +21,7 @@
 include_recipe %w{apache2 apache2::mod_php5 apache2::mod_rewrite apache2::mod_expires}
 include_recipe %w{php php::module_mysql php::module_gd}
 include_recipe "drupal::drush"
+include_recipe "mysql"
 include_recipe "mysql::server"
 
 execute "mysql-install-drupal-privileges" do
