@@ -43,6 +43,8 @@ template "/etc/mysql/drupal-grants.sql" do
   notifies :run, resources(:execute => "mysql-install-drupal-privileges"), :immediately
 end
 
+Gem.clear_paths
+
 execute "create #{node[:drupal][:db][:database]} database" do
   command "/usr/bin/mysqladmin -u root -p#{node[:mysql][:server_root_password]} create #{node[:drupal][:db][:database]}"
   not_if do
