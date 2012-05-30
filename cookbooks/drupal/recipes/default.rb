@@ -44,6 +44,7 @@ template "/etc/mysql/drupal-grants.sql" do
 end
 
 Gem.clear_paths
+require 'mysql'
 
 execute "create #{node[:drupal][:db][:database]} database" do
   command "/usr/bin/mysqladmin -u root -p#{node[:mysql][:server_root_password]} create #{node[:drupal][:db][:database]}"
