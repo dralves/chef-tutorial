@@ -1,0 +1,7 @@
+{
+  "id": "pmeireles",
+  "ssh_keys": "sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDaQsGj9V0W35biU6bg715KnonvvwavU/BiIjTvEgnjmeFYO7ILwbNaepaxUZHvjvY4so2WIkkam9J8/Af8cHFCFitkukRoK/T5hNSVTXjUjkXPTrSuQTgNPf7QSUL3assxclhvjpH5ixPqvhMmfDsYWxE8eAi+MI2keOaFtDmifJcBeaaxoF+CirOxkqroYJnWnTb8FisOIqb6a5TMKc75fy9l4xOlsnIsdHIM2MQH0PGYIMgUjPR8KFeLpGHQ0FoROCvgMrhYb4b8G+nsZweBjBY0BLTrd4DFsrHlN/4Ek/9OInAIGWvISdKfb+IhJn+rgf5N2OHdpaZSM3kbn9B",
+  "groups": [ "sysadmin", "dba", "devops" ],
+  "uid": 2001,
+  "shell": "\/bin\/bash"
+}
