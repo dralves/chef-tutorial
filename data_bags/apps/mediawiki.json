@@ -12,7 +12,7 @@
   "database_master_role": [
     "mediawiki_database_master"
   ],
-  "repository": "git://github.com/mediawiki/mediawiki-trunk-phase3.git",
+  "repository": "git://gitorious.org/mediawiki/mediawiki-trunk-phase3.git",
   "revision": {
     "_default": "master"
   },
