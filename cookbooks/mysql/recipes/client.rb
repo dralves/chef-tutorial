@@ -59,9 +59,9 @@ mysql_packages.each do |mysql_pack|
   end
 end
 
-	
 gem_package "mysql" do
   action :install
+end
 
 if platform? 'windows'
   ruby_block "copy libmysql.dll into ruby path" do
